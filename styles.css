@@ -107,3 +107,13 @@ body.dark-mode .audit {
 body.dark-mode .skip-link {
   background: var(--link-color);
 }
+.certification {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.certification h3 img {
+  margin-right: 8px;
+}
