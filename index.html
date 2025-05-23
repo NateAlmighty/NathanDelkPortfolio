@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nathan Delk | Accessibility Tester</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip to Content Link -->
+  <a href="#main-content" id="skip-link" class="skip-link">Skip to content</a>
+
+  <!-- Header -->
+  <header role="banner">
+    <h1>Nathan Delk</h1>
+    <p>Accessibility Tester • Screen Reader User • WCAG Auditor</p>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I'm Nathan Delk, a certified web accessibility tester with experience conducting manual audits using WAVE, Axe, and NVDA. As someone who uses a screen reader daily due to ADHD, I bring a unique perspective to identifying real-world barriers.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Accessibility Audits</h2>
+    
+      <!-- AUDIT 1 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1gEE3-Mo6Df3wmXCm5iftB22n3FUhXcAJg2WYPDMY7DE/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of AccessiBe.com Landing Page</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Missing alt text, form label issues, low contrast</p>
+        <p><strong>Summary:</strong> Identified several barriers including unlabeled buttons, missing alt attributes, and poor color contrast affecting readability.</p>
+      </article>
+    
+      <!-- AUDIT 2 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1_gu1zwHLT9hQKS1Xo4EEmS4gHCBk6OIWPyQ2ygoFbPg/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of AudioEye.com Home Page</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, Lighthouse, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Empty links, missing ARIA labels, heading structure issues</p>
+        <p><strong>Summary:</strong> Detected structural navigation problems, missing ARIA roles, and semantic markup errors affecting screen reader users.</p>
+      </article>
+    
+      <!-- AUDIT 3 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1DcY7pmMGfBDcGlpuWEcXYBJOtiYzOaW2_rkXz9RY0Jg/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of Deque.com Homepage</a></h3>
+        <p><strong>Tools Used:</strong> Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Redundant links, focus order issues, non-descriptive link text</p>
+        <p><strong>Summary:</strong> Identified repeated links without context, incorrect heading hierarchy, and keyboard focus traps.</p>
+      </article>
+    
+      <!-- AUDIT 4 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/10t8_Itj6leEkxw9PuIU8-O8iihwHDc7fm4x7aUpukYQ/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of LevelAccess.com Homepage</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Missing form labels, empty buttons, redundant links</p>
+        <p><strong>Summary:</strong> Found unlabeled form elements, empty interactive components, and repetitive links without unique context.</p>
+      </article>
+    
+      <!-- AUDIT 5 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1vic8OpLIIfdE2co1M52tmxj9wCgKKZjo8U7CI4dcTtw/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of FableTechLabs.com Homepage</a></h3>
+        <p><strong>Tools Used:</strong> Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Low contrast, missing alt text, poor heading structure</p>
+        <p><strong>Summary:</strong> Detected visual readability issues, missing image descriptions, and inconsistent heading levels.</p>
+      </article>
+    
+      <!-- AUDIT 6 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/15aIRE46QoRs-mbrBGbSLN_h_bQtjBGnOnHeGQxJsU3E/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of StarkApp.com Homepage</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Empty links, missing ARIA labels, missing alt text</p>
+        <p><strong>Summary:</strong> Found non-descriptive links, unlabeled interactive elements, and missing image descriptions.</p>
+      </article>
+    
+      <!-- AUDIT 7 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1yKBLXwip3T9yAxtcaebVYS6xqNpKIuFU0cp9R_Rvpd0/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of Tenon.io Homepage</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Form label issues, missing alt text, empty links</p>
+        <p><strong>Summary:</strong> Detected unlabeled form fields, missing image descriptions, and inaccessible links with no context.</p>
+      </article>
+    
+      <!-- AUDIT 8 -->
+      <article class="audit">
+        <h3><a href="https://docs.google.com/document/d/1OVZVoXM_lXDOzkYOPzKEPKMz6TFUlxFOL-2ZzcRI70M/edit?usp=drive_link " target="_blank" rel="noopener noreferrer">Audit: Accessibility of EqualWeb.com Homepage</a></h3>
+        <p><strong>Tools Used:</strong> WAVE, Axe, NVDA</p>
+        <p><strong>WCAG Issues Found:</strong> Redundant links, missing alt text, low contrast</p>
+        <p><strong>Summary:</strong> Found repeated links without differentiation, missing image descriptions, and poor text-to-background contrast ratios.</p>
+      </article>
+    </section>
+
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" aria-labelledby="certifications-heading">
+      <h2 id="certifications-heading">Certifications</h2>
+      <ul>
+        <li>LinkedIn Learning - Web Accessibility</li>
+        <li>Alison.com - Digital Accessibility Awareness</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>📩 Email: <a href="mailto:nathandelk@example.com">nathandelk@example.com</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/nathan-delk-a478a6348/ ">linkedin.com/in/nathan-delk</a></p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Nathan Delk. All rights reserved.</p>
+  </footer>
+
+  <!-- ARIA Live Region for Shortcut Announcements -->
+  <div aria-live="polite" aria-atomic="true" id="liveRegion" style="position: absolute; left: -9999px;">Keyboard shortcut activated.</div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
